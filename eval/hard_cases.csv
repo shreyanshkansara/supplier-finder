@@ -1,0 +1,74 @@
+vendor_id,name,case_type,target_request,note
+V-0006,Siddhi Saw Mill Enterprises,synonym,,uses an alternative name for the material
+V-0010,Pioneer Timbers,synonym,,uses an alternative name for the material
+V-0012,Rajdhani Upholstery House Pvt. Ltd.,near_miss,R05,"stain-resistant, not flame-retardant"
+V-0026,Classic Foam Industries Enterprises,near_miss,R04,"max density 32, needs 40"
+V-0032,Sanghvi Hardware Traders,wrong_constraint:moq,R03,MOQ above the requested 1500
+V-0038,Reddy Foam Industries Pvt. Ltd.,near_miss,R04,"max density 32, needs 40"
+V-0057,Sunrise Ply & Boards,near_miss,R02,"moisture-resistant, not waterproof"
+V-0060,Shree Ganesh Plywood Industries,wrong_constraint:region,R06,does not deliver to Rajasthan
+V-0068,Mahaveer Plywood Industries,duplicate,,duplicate of V-0270 (Mahaveer Plywood Industries Pvt. Ltd.)
+V-0079,Nair Plywood House Pvt. Ltd.,vague,,no concrete specs
+V-0089,Mahaveer Panel Products & Co.,synonym,,uses an alternative name for the material
+V-0100,Padmavati Ply & Boards Pvt. Ltd.,synonym,,uses an alternative name for the material
+V-0105,Kothari Board Depot Pvt. Ltd.,synonym,,uses an alternative name for the material
+V-0119,Kesar Plywood Industries,wrong_constraint:lead,R02,lead time over the 20-day deadline
+V-0125,Anand Plywood Industries & Co.,synonym,,uses an alternative name for the material
+V-0127,Evergreen Lumber Co.,wrong_constraint:region,R01,does not deliver to Rajasthan
+V-0128,Kesar Pack Solutions,wrong_constraint:region,R07,does not deliver to Rajasthan
+V-0134,Modern Saw Mill & Co.,near_miss,R01,"air-dried, not kiln-dried"
+V-0138,Heritage Wood Industries,synonym,,uses an alternative name for the material
+V-0149,Sanghvi Timbers Pvt. Ltd.,vague,,no concrete specs
+V-0151,Unique Cushion Works (India),vague,,no concrete specs
+V-0164,Joshi Fabrics (India),vague,,no concrete specs
+V-0184,Patel Wood Industries Enterprises,synonym,,uses an alternative name for the material
+V-0186,Chandra Timbers,synonym,,uses an alternative name for the material
+V-0188,Joshi Finishing Services and Sons,duplicate,,duplicate of V-0275 (Joshi Finishing Services & Sons)
+V-0189,Sagar Wood Industries Enterprises,near_miss,R01,"air-dried, not kiln-dried"
+V-0193,Nair Saw Mill,wrong_constraint:moq,R01,MOQ above the requested 300
+V-0196,Everest Plywood Industries,synonym,,uses an alternative name for the material
+V-0202,Supreme Laminate Gallery and Company,duplicate,,duplicate of V-0281 (Supreme Laminate Gallery & Co.)
+V-0207,Rajdhani Coatings Enterprises,keyword_trap,R06,"mentions walnut and MDF, sells finishes"
+V-0209,Kamdhenu Ply & Boards & Co.,near_miss,R02,"moisture-resistant, not waterproof"
+V-0211,Krishna Saw Mill,near_miss,R01,no 1.5 inch thickness
+V-0220,Malhotra Foam Industries Enterprises,wrong_constraint:lead,R04,lead time over the 10-day deadline
+V-0222,Kamdhenu Fittings & Co.,wrong_constraint:region,R03,does not deliver to Rajasthan
+V-0229,Shri Balaji Ply & Boards,near_miss,R06,no 18 mm
+V-0232,Rajdhani Panel Products Pvt. Ltd.,synonym,,uses an alternative name for the material
+V-0233,Shah Hardware Traders Pvt. Ltd.,near_miss,R03,not soft-close
+V-0244,Shri Balaji Ply & Boards Pvt. Ltd.,wrong_constraint:region,R02,does not deliver to Rajasthan
+V-0246,Prakash Ply & Boards Enterprises,vague,,no concrete specs
+V-0257,Om Sai Panel Products & Sons,wrong_constraint:moq,R06,MOQ above the requested 150
+V-0267,Mittal Panel Products Enterprises,synonym,,uses an alternative name for the material
+V-0278,Bhandari Wood Industries (Unit 2),duplicate,,duplicate of V-0173 (Bhandari Wood Industries)
+V-0279,Patel Hardware Traders,keyword_trap,R03,'telescopic' and '450 mm' but no drawer channels
+V-0298,Chandra Packers Enterprises,vague,,no concrete specs
+V-0306,Kaveri Foam Industries,wrong_constraint:moq,R04,MOQ above the requested 800
+V-0308,Unique Plywood Industries Pvt. Ltd.,keyword_trap,R02,'waterproof' refers to tarpaulins; the plywood is only moisture-resistant
+V-0312,Mittal Seasoning Works Enterprises,keyword_trap,R01,"seasoning service, does not sell timber"
+V-0320,Marwar Hardware Traders Enterprises,near_miss,R03,no 450 mm length
+V-0323,Marwar Wood Industries (India),near_miss,R01,"air-dried, not kiln-dried"
+V-0345,Jain Panel Products,near_miss,R02,"moisture-resistant, not waterproof"
+V-0358,Shree Ganesh Ply & Boards (India),synonym,,uses an alternative name for the material
+V-0376,Narmada Upholstery House & Co.,keyword_trap,R05,"flame-retardant, but not upholstery fabric"
+V-0387,Goyal Upholstery House,wrong_constraint:region,R05,does not deliver to Rajasthan
+V-0392,Kothari Polyfoam,near_miss,R04,"max density 32, needs 40"
+V-0393,Thar Plywood House,near_miss,R02,"waterproof, but no 18 mm"
+V-0395,Kapoor Hardware Traders & Sons,vague,,no concrete specs
+V-0397,Modern Saw Mill (India),near_miss,R01,"moisture 12–14%, above the 12% limit"
+V-0402,Kesar Laminates & Sons,keyword_trap,R01,"laminate with a sheesham look, not sheesham timber"
+V-0403,Shubh Cushion Works (Unit 2),duplicate,,duplicate of V-0292 (Shubh Cushion Works)
+V-0418,Aravali Textiles & Co.,wrong_constraint:lead,R05,lead time over the 28-day deadline
+V-0422,Chandra Corrugators Enterprises,wrong_constraint:moq,R07,MOQ above the requested 2000
+V-0433,Navkar Decor Surfaces Pvt. Ltd.,vague,,no concrete specs
+V-0442,Evergreen Hardware (India),near_miss,R03,not soft-close
+V-0443,Laxmi Wood Industries & Sons,near_miss,R01,"moisture 12–14%, above the 12% limit"
+V-0444,Patel Wood Industries & Co.,synonym,,uses an alternative name for the material
+V-0450,Shree Ganesh Plywood House Pvt. Ltd.,near_miss,R06,"particle board, not MDF"
+V-0452,Laxmi Packers (India),near_miss,R07,"3-ply only, needs 5-ply"
+V-0458,Agarwal Glass & Mirrors (India),keyword_trap,R01,"mirror, not timber"
+V-0466,Sanghvi Timber Mart,wrong_constraint:lead,R01,lead time over the 21-day deadline
+V-0479,Shree Ganesh Upholstery House Pvt. Ltd.,near_miss,R05,"stain-resistant, not flame-retardant"
+V-0483,Modern Hardware Mart & Co.,near_miss,R03,not soft-close
+V-0496,Kapoor Packers,keyword_trap,R04,"packaging foam, not PU seating foam"
+V-0497,Krishna Laminates and Sons,duplicate,,duplicate of V-0084 (Krishna Laminates & Sons)

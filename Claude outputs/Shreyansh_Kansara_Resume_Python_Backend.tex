@@ -1,0 +1,117 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\definecolor{linkblue}{rgb}{0.16,0.26,0.45}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,pdftitle={Shreyansh Kansara - Python Backend Developer Resume},pdfauthor={Shreyansh Kansara}}
+
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\vspace{-5pt}\large\bfseries}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\newcommand{\edu}[4]{\vspace{3pt}\item
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{\normalsize #1} & \textbf{#2} \\
+    \textit{#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-6pt}}
+\newcommand{\job}[2]{\vspace{2pt}\item
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+  \end{tabular*}\vspace{-6pt}}
+\newcommand{\proj}[1]{\vspace{3pt}\item \textbf{\small #1}\vspace{-6pt}}
+\newcommand{\tech}[1]{\vspace{1pt}{\small \hspace*{0.25in}\textbf{Tech:} #1}\par\vspace{-1pt}}
+\newcommand{\bul}[1]{\item\small{#1\vspace{-2pt}}}
+\newcommand{\listStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\listEnd}{\end{itemize}}
+\newcommand{\bulStart}{\begin{itemize}[leftmargin=0.25in, label=$\bullet$]}
+\newcommand{\bulEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Shreyansh Kansara} \\ \vspace{1pt}
+  \vspace{2pt}
+  \small Udaipur, Rajasthan \\ \vspace{1pt}
+  \small \href{tel:+919530091113}{+91-9530091113} \ \ $|$\ \ 
+  \href{mailto:skansara789@gmail.com}{skansara789@gmail.com} \ \ $|$\ \ 
+  \href{https://linkedin.com/in/shreyanshkansara}{linkedin.com/in/shreyanshkansara} \ \ $|$\ \ 
+  \href{https://github.com/shreyanshkansara}{github.com/shreyanshkansara}
+\end{center}
+\vspace{-8pt}
+
+\section{PROFESSIONAL SUMMARY}
+\small{Computer Science graduate with hands-on experience in Python development, backend systems, and AI applications. Built scalable applications, integrated APIs, and automated workflows using Docker, Render, and CI/CD pipelines. Experienced with LangChain, LangGraph, RAG pipelines, and Linux-based development.}
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} Python, SQL, JavaScript, HTML, CSS, C++, C \\
+    \textbf{Backend:} FastAPI, REST APIs, Pydantic, SQLAlchemy, asyncio, httpx, Alembic, Django, Flask \\
+    \textbf{Databases:} PostgreSQL, pgvector, Firebase \\
+    \textbf{Testing \& CI/CD:} pytest, Ruff, GitHub Actions, Jenkins \\
+    \textbf{DevOps \& Cloud:} Docker, Docker Compose, Linux, Bash, Git, GitHub, AWS, Render, Vercel \\
+    \textbf{AI:} LangGraph, LangChain, RAG, Gemini API, OpenAI API, TypeSafe Jev, vector search
+  }}
+\end{itemize}
+
+\section{PROJECTS}
+\listStart
+  \proj{Supplier Finder: AI Procurement Sourcing Agent \normalfont{$|$ \href{https://supplier-finder.onrender.com/}{Live Demo}}}
+  \bulStart
+    \bul{Built an async FastAPI service that took a purchase request written in plain English and returned a ranked list of suppliers with contact details from a catalog of 500 vendors.}
+    \bul{Stored the vendors in PostgreSQL with SQLAlchemy and Alembic. Used SQL filters to narrow the list by category and delivery region, pgvector to find the closest matches, and Jev to check whether each vendor fit. On 40 test requests, precision@5 rose from 0.54 with vector search alone to 0.97.}
+    \bul{Ran each request through a 7-step LangGraph workflow that could pause to ask the buyer up to 3 rounds of questions. Saved state to Postgres after every step, so a paused request resumed where it left off after a restart.}
+    \bul{Wrote 74 pytest cases that GitHub Actions ran with Ruff on every push. Deployed the service with Docker on Render, using Neon for the Postgres database.}
+  \bulEnd
+  \tech{Python, FastAPI, PostgreSQL, pgvector, SQLAlchemy, LangGraph, Gemini API, TypeSafe Jev, Docker, GitHub Actions}
+  \proj{Gate Checker: Railway Level Crossing Status App \normalfont{$|$ \href{https://gate-status-checker.onrender.com/}{Live Demo}}}
+  \bulStart
+    \bul{Built and deployed a FastAPI app on Render that showed whether level crossing gates 30 and 31 near Khandala were likely open or closed. Pulled live delay data from the RailRadar API and cached a timetable of 378 trains for 14 days.}
+    \bul{Calculated when each train would reach the gate based on its direction of travel and merged overlapping closure windows into one. Made the window size (1 to 15 minutes) and merge gap (up to 20 minutes) adjustable through a settings API.}
+    \bul{Called RailRadar only when a user ran a check, with no background polling. When delay data was missing, fell back to a 90-minute schedule window and flagged zero-delay readings older than 20 minutes as suspect.}
+    \bul{Wrote 112 pytest cases across 8 modules, added typed exceptions for 429 and timeout errors, and served the vanilla JavaScript frontend from the same FastAPI app.}
+  \bulEnd
+  \tech{Python, FastAPI, Pydantic, httpx, pytest, JavaScript, HTML, CSS, Render}
+  \proj{Android Custom ROM Development}
+  \bulStart
+    \bul{Compiled a custom Android ROM from AOSP source and automated its builds with a Jenkins CI/CD pipeline, cutting manual build time by 60\%.}
+  \bulEnd
+  \tech{AOSP, Linux, Soong/Make, Git, Jenkins}
+\listEnd
+
+\section{PROFESSIONAL EXPERIENCE}
+\listStart
+  \job{Embedded Systems Intern --- Genesys, Palakkad}{03/2024 -- 04/2024}
+  \bulStart
+    \bul{Integrated Arduino-based monitoring into medical devices with real-time Firebase sync and built a web dashboard that cut manual monitoring effort by 40\%.}
+  \bulEnd
+  \job{Developer and Logistician --- 3rdEra (Clothing Store)}{06/2023 -- 08/2023}
+  \bulStart
+    \bul{Made 15+ UI/UX improvements to the company website in Framer to simplify navigation.}
+    \bul{Ran the Shopify backend, logistics, and customer support; sales grew 30\% over this period.}
+  \bulEnd
+\listEnd
+
+\section{EDUCATION}
+\listStart
+  \edu{Institute of Engineering and Technology, Udaipur}{2022 -- 2026}{Bachelor of Technology in Computer Science}{CGPA: 7.07}
+  \edu{The Shanti Niketan School, Jodhpur}{2020 -- 2021}{Class 12, CBSE Board}{Percentage: 76.2\%}
+  \edu{Central Academy School, Jodhpur}{2018 -- 2019}{Class 10, CBSE Board}{Percentage: 85\%}
+\listEnd
+\vspace{-4pt}
+
+\end{document}

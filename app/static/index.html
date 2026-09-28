@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supplier Finder · Rohida Furniture Works</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233a6ea5'/%3E%3Cpath d='M9 21l5-10 4 7 2-3 3 6z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="28" height="28"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M9 21l5-10 4 7 2-3 3 6z" fill="var(--surface)"/></svg>
+    </span>
+    <div>
+      <div class="brand-name">Supplier Finder</div>
+      <div class="brand-sub">Rohida Furniture Works · demo with synthetic vendors</div>
+    </div>
+  </div>
+  <button class="ghost" id="key-btn" type="button" aria-haspopup="dialog">API key</button>
+</header>
+
+<main class="layout">
+  <section class="panel ask" aria-labelledby="ask-h">
+    <h1 id="ask-h">What do you need to buy?</h1>
+    <form id="ask-form">
+      <label class="sr-only" for="ask-text">Your requirement</label>
+      <textarea id="ask-text" rows="4" required minlength="3" maxlength="4000"
+        placeholder="e.g. 200 sheets of 18 mm waterproof plywood, delivered to Udaipur within 20 days"></textarea>
+      <div class="row">
+        <div class="examples" aria-label="Examples">
+          <button type="button" class="chip" data-example="800 kg of 40-density PU foam sheets for sofa seats, delivered to Jodhpur within 10 days">PU foam</button>
+          <button type="button" class="chip" data-example="1,500 pairs of 450 mm soft-close telescopic drawer channels, delivered to Jodhpur within 2 weeks">Drawer channels</button>
+          <button type="button" class="chip" data-example="Need fabric for the hotel sofas">A vague one</button>
+          <button type="button" class="chip" data-example="100 sheets of 30 mm waterproof plywood, delivered to Jodhpur within 20 days">One nobody can supply</button>
+        </div>
+        <button class="primary" id="ask-btn" type="submit">Find suppliers</button>
+      </div>
+    </form>
+
+    <div class="history">
+      <div class="history-head">
+        <h2>Recent requests</h2>
+        <button type="button" class="link" id="refresh-history">Refresh</button>
+      </div>
+      <ol id="history" class="history-list"><li class="muted">Nothing yet.</li></ol>
+    </div>
+  </section>
+
+  <section class="panel result" aria-live="polite" id="result">
+    <div class="empty">
+      <p class="empty-title">Results appear here</p>
+      <p class="muted">Describe the item, quantity, delivery city and deadline. If something is missing, you'll be asked for it.
+        The answer is the list of vendors that can supply it, with their contact details, and the near misses with the reason each was ruled out.</p>
+    </div>
+  </section>
+</main>
+
+<dialog id="key-dialog">
+  <form method="dialog" id="key-form">
+    <h2>API key</h2>
+    <p class="muted">The key from this server's <code>API_KEY</code> setting. It stays in this browser only.</p>
+    <label for="key-input">Key</label>
+    <input id="key-input" type="password" autocomplete="off" required>
+    <div class="row end">
+      <button type="button" class="ghost" id="key-cancel">Cancel</button>
+      <button class="primary" type="submit">Save</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

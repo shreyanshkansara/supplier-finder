@@ -1,0 +1,31 @@
+# Render Blueprint: one free web service built from the Dockerfile.
+# The database is NOT created here: use a free Neon Postgres (pgvector included) and paste its
+# connection string into DATABASE_URL when Render asks. See docs/DEPLOY.md.
+services:
+  - type: web
+    name: supplier-finder
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL          # Neon connection string, pasted as-is (sslmode=require is handled)
+        sync: false
+      - key: API_KEY               # the key people type into the web page
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GEMINI_EMBEDDING_MODEL
+        value: gemini-embedding-2
+      - key: TYPESAFE_API_KEY
+        sync: false
+      - key: JEV_REVIEW_AT
+        value: "0.25"
+      - key: JEV_SHORTLIST_AT
+        value: "0.35"
+      - key: SEED_ON_START         # first boot loads the 500 demo vendors (vectors ship in data/embeddings)
+        value: "true"
+      - key: CHECKPOINTER
+        value: postgres

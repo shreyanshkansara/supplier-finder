@@ -1,0 +1,582 @@
+[
+  {
+    "id": "R01",
+    "kind": "clear",
+    "qty": 300,
+    "deadline_days": 21,
+    "text": "300 cft of kiln-dried sheesham, 1.5 inch thick, moisture ≤12%, delivered to Jodhpur within 3 weeks.",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0039",
+      "V-0077",
+      "V-0122",
+      "V-0195",
+      "V-0239",
+      "V-0260",
+      "V-0336",
+      "V-0424",
+      "V-0425",
+      "V-0465",
+      "V-0500"
+    ]
+  },
+  {
+    "id": "R02",
+    "kind": "clear",
+    "qty": 200,
+    "deadline_days": 20,
+    "text": "200 sheets of 18 mm waterproof plywood for a hotel bathroom vanity order in Udaipur, within 20 days.",
+    "category": "Panel boards",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0037",
+      "V-0089",
+      "V-0099",
+      "V-0228",
+      "V-0347",
+      "V-0371",
+      "V-0372",
+      "V-0386",
+      "V-0432",
+      "V-0487",
+      "V-0488"
+    ]
+  },
+  {
+    "id": "R03",
+    "kind": "clear",
+    "qty": 1500,
+    "deadline_days": 14,
+    "text": "1,500 pairs of 450 mm soft-close telescopic drawer channels, delivered to Jodhpur within 2 weeks.",
+    "category": "Furniture hardware",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0116",
+      "V-0120",
+      "V-0208",
+      "V-0419",
+      "V-0446"
+    ]
+  },
+  {
+    "id": "R04",
+    "kind": "clear",
+    "qty": 800,
+    "deadline_days": 10,
+    "text": "800 kg of 40-density PU foam sheets for sofa seats, delivered to Jodhpur within 10 days.",
+    "category": "Foam & cushioning",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0009",
+      "V-0102",
+      "V-0231",
+      "V-0349",
+      "V-0354",
+      "V-0389",
+      "V-0471"
+    ]
+  },
+  {
+    "id": "R05",
+    "kind": "clear",
+    "qty": 600,
+    "deadline_days": 28,
+    "text": "600 m of flame-retardant upholstery fabric for a 120-room hotel project in Jaipur, within 4 weeks.",
+    "category": "Upholstery fabric & leatherette",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0013",
+      "V-0145",
+      "V-0237",
+      "V-0259",
+      "V-0300",
+      "V-0464",
+      "V-0491"
+    ]
+  },
+  {
+    "id": "R06",
+    "kind": "clear",
+    "qty": 150,
+    "deadline_days": null,
+    "text": "150 sheets of 18 mm pre-laminated MDF, walnut finish, delivered to Jodhpur.",
+    "category": "Panel boards",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0015",
+      "V-0327",
+      "V-0382",
+      "V-0405",
+      "V-0415",
+      "V-0490"
+    ]
+  },
+  {
+    "id": "R07",
+    "kind": "clear",
+    "qty": 2000,
+    "deadline_days": 7,
+    "text": "2,000 five-ply corrugated boxes sized for a dining chair, with EPE corners, delivered to Jodhpur within 1 week.",
+    "category": "Packaging",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0056",
+      "V-0153",
+      "V-0303",
+      "V-0332",
+      "V-0339",
+      "V-0484"
+    ]
+  },
+  {
+    "id": "R08",
+    "kind": "vague",
+    "text": "Need some good wood for the new bed range.",
+    "expected": "clarify: species, quantity, thickness, deadline",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R09",
+    "kind": "vague",
+    "text": "Hinges for wardrobes, urgent.",
+    "expected": "clarify: quantity, soft-close or not, overlay type, exact deadline",
+    "category": "Furniture hardware",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R10",
+    "kind": "vague",
+    "text": "Fabric for the hotel sofas.",
+    "expected": "clarify: fabric type, flame-retardant needed?, quantity, deadline",
+    "category": "Upholstery fabric & leatherette",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R11",
+    "kind": "tricky",
+    "qty": 100,
+    "deadline_days": 30,
+    "text": "100 cft of kiln-dried acacia, delivered to Jodhpur within a month.",
+    "expected": "no vendor fully matches: all acacia stock is air-dried; report the near misses",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R12",
+    "kind": "tricky",
+    "qty": 50,
+    "deadline_days": 5,
+    "text": "50 sheets of waterproof plywood, any thickness, delivered to Jodhpur in 5 days.",
+    "expected": "no vendor meets the deadline: every waterproof plywood vendor needs 7+ days",
+    "category": "Panel boards",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R13",
+    "kind": "clear",
+    "qty": 2000,
+    "deadline_days": 10,
+    "text": "2,000 soft-close concealed hinges, 35 mm cup, full overlay, delivered to Jodhpur within 10 days.",
+    "category": "Furniture hardware",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0003",
+      "V-0088",
+      "V-0201",
+      "V-0252"
+    ]
+  },
+  {
+    "id": "R14",
+    "kind": "clear",
+    "qty": 300,
+    "deadline_days": 15,
+    "text": "300 gas lifts for hydraulic storage beds, 1000 N, delivered to Jodhpur within 15 days.",
+    "category": "Furniture hardware",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0020",
+      "V-0036",
+      "V-0476"
+    ]
+  },
+  {
+    "id": "R15",
+    "kind": "clear",
+    "qty": 120,
+    "deadline_days": 12,
+    "text": "120 sheets of 1 mm suede-finish decorative laminate, delivered to Jaipur within 12 days.",
+    "category": "Laminates & veneers",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0101",
+      "V-0197",
+      "V-0205",
+      "V-0236",
+      "V-0330",
+      "V-0338",
+      "V-0350",
+      "V-0353"
+    ]
+  },
+  {
+    "id": "R16",
+    "kind": "clear",
+    "qty": 80,
+    "deadline_days": 15,
+    "text": "80 sheets of natural teak veneer, delivered to Jodhpur within 15 days.",
+    "category": "Laminates & veneers",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0081",
+      "V-0124",
+      "V-0158",
+      "V-0197",
+      "V-0221",
+      "V-0350",
+      "V-0409",
+      "V-0421"
+    ]
+  },
+  {
+    "id": "R17",
+    "kind": "clear",
+    "qty": 500,
+    "deadline_days": 12,
+    "text": "500 kg of 50-density HR foam for premium sofas, delivered to Jodhpur within 12 days.",
+    "category": "Foam & cushioning",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0008",
+      "V-0266",
+      "V-0290",
+      "V-0362"
+    ]
+  },
+  {
+    "id": "R18",
+    "kind": "clear",
+    "qty": 400,
+    "deadline_days": 21,
+    "text": "400 m of PU leatherette for bed headboards, delivered to Jodhpur within 3 weeks.",
+    "category": "Upholstery fabric & leatherette",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0025",
+      "V-0219",
+      "V-0459"
+    ]
+  },
+  {
+    "id": "R19",
+    "kind": "clear",
+    "qty": 200,
+    "deadline_days": 7,
+    "text": "200 litres of matte PU lacquer with sealer, delivered to Jodhpur within 7 days.",
+    "category": "Adhesives, finishes & coatings",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0161",
+      "V-0238",
+      "V-0365"
+    ]
+  },
+  {
+    "id": "R20",
+    "kind": "clear",
+    "qty": 300,
+    "deadline_days": 5,
+    "text": "300 litres of PVA wood glue for joinery, delivered to Jodhpur within 5 days.",
+    "category": "Adhesives, finishes & coatings",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0017",
+      "V-0248",
+      "V-0313",
+      "V-0394"
+    ]
+  },
+  {
+    "id": "R21",
+    "kind": "clear",
+    "qty": 400,
+    "deadline_days": 30,
+    "text": "400 SS legs for dining tables, made to our drawings, delivered to Jodhpur within 30 days.",
+    "category": "Metal components",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0163",
+      "V-0250",
+      "V-0343"
+    ]
+  },
+  {
+    "id": "R22",
+    "kind": "clear",
+    "qty": 5000,
+    "deadline_days": 10,
+    "text": "5,000 m of 2 mm PVC edge banding, 22 mm wide, delivered to Jodhpur within 10 days.",
+    "category": "Edge banding & profiles",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0019",
+      "V-0024",
+      "V-0107",
+      "V-0109",
+      "V-0214",
+      "V-0249",
+      "V-0319"
+    ]
+  },
+  {
+    "id": "R23",
+    "kind": "clear",
+    "qty": 600,
+    "deadline_days": 20,
+    "text": "600 sq ft of 10 mm toughened glass for dining table tops, delivered to Udaipur within 20 days.",
+    "category": "Glass & mirrors",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0065",
+      "V-0094",
+      "V-0114",
+      "V-0140",
+      "V-0194",
+      "V-0420",
+      "V-0448"
+    ]
+  },
+  {
+    "id": "R24",
+    "kind": "clear",
+    "qty": 300,
+    "deadline_days": 14,
+    "text": "300 sq ft of 5 mm mirror for wardrobe shutters, delivered to Jodhpur within 2 weeks.",
+    "category": "Glass & mirrors",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0074",
+      "V-0078",
+      "V-0346"
+    ]
+  },
+  {
+    "id": "R25",
+    "kind": "clear",
+    "qty": 1,
+    "deadline_days": 10,
+    "text": "1 job of CNC routing to nest and cut wardrobe panels, in Jodhpur, within 10 days.",
+    "category": "Services (job work)",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0051",
+      "V-0087",
+      "V-0268"
+    ]
+  },
+  {
+    "id": "R26",
+    "kind": "clear",
+    "qty": 150,
+    "deadline_days": 30,
+    "text": "150 cft of kiln-dried teak, 2 inch thick, delivered to Jaipur within 30 days.",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0090",
+      "V-0216",
+      "V-0227",
+      "V-0363"
+    ]
+  },
+  {
+    "id": "R27",
+    "kind": "clear",
+    "qty": 400,
+    "deadline_days": 25,
+    "text": "400 cft of kiln-dried mango wood, 1 inch thick, delivered to Jodhpur within 25 days.",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0018",
+      "V-0171",
+      "V-0190",
+      "V-0243",
+      "V-0361",
+      "V-0391",
+      "V-0411"
+    ]
+  },
+  {
+    "id": "R28",
+    "kind": "clear",
+    "qty": 100,
+    "deadline_days": 15,
+    "text": "100 sheets of 18 mm HDHMR board for kitchen cabinets, delivered to Jodhpur within 15 days.",
+    "category": "Panel boards",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0058",
+      "V-0318",
+      "V-0383",
+      "V-0400",
+      "V-0453"
+    ]
+  },
+  {
+    "id": "R29",
+    "kind": "clear",
+    "qty": 600,
+    "deadline_days": 7,
+    "text": "600 rolls of 23 micron stretch wrap film, delivered to Jodhpur within 7 days.",
+    "category": "Packaging",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0085",
+      "V-0117",
+      "V-0337",
+      "V-0367"
+    ]
+  },
+  {
+    "id": "R30",
+    "kind": "clear",
+    "qty": 300,
+    "deadline_days": 14,
+    "text": "300 kg of memory foam sheets for mattress toppers, delivered to Jodhpur within 2 weeks.",
+    "category": "Foam & cushioning",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0008",
+      "V-0030",
+      "V-0108",
+      "V-0360",
+      "V-0384"
+    ]
+  },
+  {
+    "id": "R31",
+    "kind": "clear",
+    "qty": 800,
+    "deadline_days": 20,
+    "text": "800 sets of 500 mm soft-close tandem drawer systems, delivered to Jodhpur within 20 days.",
+    "category": "Furniture hardware",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0045",
+      "V-0315",
+      "V-0408"
+    ]
+  },
+  {
+    "id": "R32",
+    "kind": "vague",
+    "text": "Some foam for cushions.",
+    "expected": "clarify: type, density, quantity",
+    "category": "Foam & cushioning",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R33",
+    "kind": "vague",
+    "text": "Need glass for the new tables, ASAP.",
+    "expected": "clarify: type, thickness, quantity, exact deadline",
+    "category": "Glass & mirrors",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R34",
+    "kind": "vague",
+    "text": "Laminates for the wardrobe project.",
+    "expected": "clarify: finish, quantity, deadline",
+    "category": "Laminates & veneers",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R35",
+    "kind": "vague",
+    "text": "Polish for the dining sets.",
+    "expected": "clarify: type, quantity",
+    "category": "Adhesives, finishes & coatings",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R36",
+    "kind": "vague",
+    "text": "Boxes for dispatch.",
+    "expected": "clarify: ply, size, quantity",
+    "category": "Packaging",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R37",
+    "kind": "tricky",
+    "qty": 200,
+    "deadline_days": 21,
+    "text": "200 cft of kiln-dried Dalbergia sissoo, 1.5 inch, moisture up to 12%, to Jodhpur within 3 weeks.",
+    "expected": "synonym: Dalbergia sissoo is sheesham",
+    "category": "Solid timber & lumber",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0077",
+      "V-0122",
+      "V-0260",
+      "V-0336",
+      "V-0424",
+      "V-0425",
+      "V-0500"
+    ]
+  },
+  {
+    "id": "R38",
+    "kind": "tricky",
+    "qty": 300,
+    "deadline_days": 28,
+    "text": "300 m of fire-retardant sofa fabric for a hotel lobby in Udaipur, within 4 weeks.",
+    "expected": "synonym: fire-retardant = flame-retardant; stain-resistant is a near miss",
+    "category": "Upholstery fabric & leatherette",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": [
+      "V-0013",
+      "V-0237",
+      "V-0259",
+      "V-0300",
+      "V-0464",
+      "V-0491"
+    ]
+  },
+  {
+    "id": "R39",
+    "kind": "tricky",
+    "qty": 100,
+    "deadline_days": 20,
+    "text": "100 sheets of 30 mm waterproof plywood, delivered to Jodhpur within 20 days.",
+    "expected": "no vendor stocks 30 mm; report the closest (25 mm)",
+    "category": "Panel boards",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  },
+  {
+    "id": "R40",
+    "kind": "tricky",
+    "qty": 50,
+    "deadline_days": 2,
+    "text": "50 kg of memory foam, delivered to Jodhpur within 2 days.",
+    "expected": "nobody delivers in 2 days; report the fastest",
+    "category": "Foam & cushioning",
+    "delivery_state": "Rajasthan",
+    "gold_vendor_ids": []
+  }
+]

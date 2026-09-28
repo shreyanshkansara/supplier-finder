@@ -1,0 +1,307 @@
+{
+  "parser": "gemini:gemini-3.5-flash-lite",
+  "jev": "on",
+  "field_accuracy": {
+    "quantity": 1.0,
+    "deadline_days": 1.0,
+    "category": 1.0,
+    "delivery_state": 1.0
+  },
+  "vague_caught": "8/8",
+  "false_clarify": "0/32",
+  "tokens": 32574,
+  "fallbacks": 0,
+  "seconds": 139.3,
+  "rows": [
+    {
+      "id": "R01",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.99
+    },
+    {
+      "id": "R02",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R03",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R04",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R05",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.96
+    },
+    {
+      "id": "R06",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R07",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R11",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R12",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.96
+    },
+    {
+      "id": "R13",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R14",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.96
+    },
+    {
+      "id": "R15",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R16",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.93
+    },
+    {
+      "id": "R17",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R18",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.81
+    },
+    {
+      "id": "R19",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R20",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.87
+    },
+    {
+      "id": "R21",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.82
+    },
+    {
+      "id": "R22",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R23",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R24",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R25",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.91
+    },
+    {
+      "id": "R26",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R27",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R28",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R29",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R30",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.9
+    },
+    {
+      "id": "R31",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.97
+    },
+    {
+      "id": "R37",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.99
+    },
+    {
+      "id": "R38",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.96
+    },
+    {
+      "id": "R39",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.98
+    },
+    {
+      "id": "R40",
+      "misses": {},
+      "asked_unnecessarily": [],
+      "p_quotable": 0.59
+    }
+  ],
+  "vague": [
+    {
+      "id": "R08",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.43
+    },
+    {
+      "id": "R09",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.21
+    },
+    {
+      "id": "R10",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.13
+    },
+    {
+      "id": "R32",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.17
+    },
+    {
+      "id": "R33",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.08
+    },
+    {
+      "id": "R34",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.1
+    },
+    {
+      "id": "R35",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.45
+    },
+    {
+      "id": "R36",
+      "caught": true,
+      "missing": [
+        "specs",
+        "quantity",
+        "unit",
+        "delivery_location",
+        "deadline_days"
+      ],
+      "p_quotable": 0.09
+    }
+  ]
+}

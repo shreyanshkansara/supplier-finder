@@ -1,0 +1,214 @@
+{
+  "review_at": 0.25,
+  "shortlist_at": 0.35,
+  "metrics": {
+    "precision@5": 0.9714,
+    "no_match": 1.0,
+    "gold_kept": 0.9667,
+    "auto_precision": 0.9832,
+    "review_load": 0.0165
+  },
+  "why": "best precision@5 + 0.5*no-match with gold kept",
+  "review_grid": [
+    {
+      "review_at": 0.2,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0732
+    },
+    {
+      "review_at": 0.25,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0579
+    },
+    {
+      "review_at": 0.3,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.96,
+      "auto_precision": 1.0,
+      "review_load": 0.05
+    },
+    {
+      "review_at": 0.35,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.96,
+      "auto_precision": 1.0,
+      "review_load": 0.042
+    },
+    {
+      "review_at": 0.4,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9533,
+      "auto_precision": 1.0,
+      "review_load": 0.042
+    },
+    {
+      "review_at": 0.15,
+      "precision@5": 0.9714,
+      "no_match": 0.75,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0806
+    },
+    {
+      "review_at": 0.0,
+      "precision@5": 1.0,
+      "no_match": 0.25,
+      "gold_kept": 1.0,
+      "auto_precision": 1.0,
+      "review_load": 0.1799
+    },
+    {
+      "review_at": 0.05,
+      "precision@5": 1.0,
+      "no_match": 0.25,
+      "gold_kept": 1.0,
+      "auto_precision": 1.0,
+      "review_load": 0.1364
+    }
+  ],
+  "shortlist_grid": [
+    {
+      "shortlist_at": 0.25,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.9669,
+      "review_load": 0.0
+    },
+    {
+      "shortlist_at": 0.3,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.975,
+      "review_load": 0.0083
+    },
+    {
+      "shortlist_at": 0.35,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.9832,
+      "review_load": 0.0165
+    },
+    {
+      "shortlist_at": 0.4,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.9832,
+      "review_load": 0.0165
+    },
+    {
+      "shortlist_at": 0.45,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.9832,
+      "review_load": 0.0165
+    },
+    {
+      "shortlist_at": 0.5,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 0.9915,
+      "review_load": 0.0248
+    },
+    {
+      "shortlist_at": 0.55,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0496
+    },
+    {
+      "shortlist_at": 0.6,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0579
+    },
+    {
+      "shortlist_at": 0.65,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0579
+    },
+    {
+      "shortlist_at": 0.7,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0579
+    },
+    {
+      "shortlist_at": 0.75,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0744
+    },
+    {
+      "shortlist_at": 0.8,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.0992
+    },
+    {
+      "shortlist_at": 0.85,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.124
+    },
+    {
+      "shortlist_at": 0.9,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.1818
+    },
+    {
+      "shortlist_at": 0.95,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": 1.0,
+      "review_load": 0.4463
+    },
+    {
+      "shortlist_at": 1.0,
+      "precision@5": 0.9714,
+      "no_match": 1.0,
+      "gold_kept": 0.9667,
+      "auto_precision": null,
+      "review_load": 1.0
+    }
+  ],
+  "embedder": "gemini:gemini-embedding-2:1536",
+  "parser": "gemini:gemini-3.5-flash-lite",
+  "jev_failures": 0,
+  "judged_candidates": 348,
+  "min_gold_kept": 0.95,
+  "min_auto_precision": 0.98
+}
